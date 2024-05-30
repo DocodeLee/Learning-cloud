@@ -60,6 +60,6 @@ rm is for file rmdir is for directory
 but you cannot remove the directory which is not empty/ if you delete the all the content. rm -r command will help to delete the directory
 ## network intrusion detection system
 ![image](https://github.com/DocodeLee/Learning-cloud/assets/167724096/1b0d2912-52a2-4b75-8233-93d200be98c4)
-I downloaded the snort from the kali homepage
+#### I downloaded the snort from the kali homepage
 ![image](https://github.com/DocodeLee/Learning-cloud/assets/167724096/e64e84ae-ec97-4510-b77f-0330ba37acee)
-Even i downloaded i cannot find snort.conf
+#### Even i downloaded i cannot find snort.conf
