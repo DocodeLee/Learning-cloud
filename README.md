@@ -1,4 +1,4 @@
-# 2024 05 29
+# 2024 05 29 linux-basic-for hacking
 For the whole day i spent to learn kali linux.
 Firt They cannot find the filename, and even i couldn't run virtual box.
 I don't have enough space so i clear some files.
@@ -75,3 +75,13 @@ sed s/mysql/MySQL/g /etc/snort/snort.conf > snort2.conf
 ## when you are working with large file, more or less will be better than cat
 # CH.3
 ## ifconfig shows some useful information about the active network interfaces on the system
+Eth0 mean ethernet0 = first wired connection
+Second line showed me the IP address.
+#### broadcast address, which is the address used to send out information to all IPs on the subnet; and finally the network mask
+### lo : short for loopback address and is sometimes called localhost.
+## Changing Your IP Address
+#### I couldn't change the IP by ifconfig eth0 [IP ADDRESS]
+#### I used sudo infront of the command
+#### ifconfig ethO 192.168.181.115 netmask 255.255.0.0 broadcast 192.168.1.255
+#### DHCP : a networking protocol for dynamically assigning IP addresses to each host on your organization's network
+## dig, which offers a way to gather DNS information about a target domain.
