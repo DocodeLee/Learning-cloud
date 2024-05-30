@@ -87,3 +87,8 @@ Second line showed me the IP address.
 ## dig, which offers a way to gather DNS information about a target domain.
 #### dig hackers-arise.com ns ...... ns is shortname for nameserver
 #### dig hackers-arise.com mx ...... mx is shortname for mail exhcange server
+
+## For changing DNS you can use leafpad
+### leafpad /etc/resolv.conf
+### echo "nameserver 8.8.8.8"> /etc/resolv.conf
+This comand change the nameserver and store it
