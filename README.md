@@ -85,3 +85,5 @@ Second line showed me the IP address.
 #### ifconfig ethO 192.168.181.115 netmask 255.255.0.0 broadcast 192.168.1.255
 #### DHCP : a networking protocol for dynamically assigning IP addresses to each host on your organization's network
 ## dig, which offers a way to gather DNS information about a target domain.
+#### dig hackers-arise.com ns ...... ns is shortname for nameserver
+#### dig hackers-arise.com mx ...... mx is shortname for mail exhcange server
