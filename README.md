@@ -41,10 +41,10 @@ Linux (and Windows for that matter) allows us to take the output of one command 
 we use the | command to do it
  ps command is used to display information about processes running on the machine. 
  ![image](https://github.com/DocodeLee/Learning-cloud/assets/167724096/6b41bca9-4c4c-4e8e-9c98-4fdd39e57a6f)
- I met new problem the permission problem. i search for the solutions
+ #### I met new problem the permission problem. i search for the solutions
   - sudo, chom didn't work
 ![image](https://github.com/DocodeLee/Learning-cloud/assets/167724096/239b5825-c1d2-44c4-9657-a0d2d8885591)
-I found that the root was the problem
+#### I found that the root was the problem
 # 2024 05 30
 ### When you use the cat command after you finish the input ctrl + D will be reform the commnad line
 ### CAT vs TOUCH
@@ -52,7 +52,7 @@ Touch command is used to create a new empty file without preview and also used t
 ## Creating Directory
 ### Directory is folder you can save file in directory
 ![image](https://github.com/DocodeLee/Learning-cloud/assets/167724096/07fe8b73-d70f-424b-8416-463c2c607679)
-when you copy to file to other place use cp filename root(~/newdirectory)
+#### when you copy to file to other place use cp filename root(~/newdirectory)
 ## Renaming the name
 In linux there is no command for rename for this you need to use move command. $move original-name new-name
 ## Removing
@@ -63,3 +63,15 @@ but you cannot remove the directory which is not empty/ if you delete the all th
 #### I downloaded the snort from the kali homepage
 ![image](https://github.com/DocodeLee/Learning-cloud/assets/167724096/e64e84ae-ec97-4510-b77f-0330ba37acee)
 #### Even i downloaded i cannot find snort.conf
+#### The reason was they changed the filename from conf to lua lol
+### head /etc/snort/snort.lua (head -number /....) set the line you want to see 
+### tail will show the last part
+## Thre is no mysql in snort.lua
+In the book they find mysql using cat /etc/snort/snort.lua | grep mysql
+but i don't have my sql in this version or maybe i am wrong.
+#### if you want to copy specific content use this
+sed s/mysql/MySQL/g /etc/snort/snort.conf > snort2.conf
+##### this mean replace mysql to MYSQL, g means globally and result will be saved in snort2.conf
+## when you are working with large file, more or less will be better than cat
+# CH.3
+## ifconfig shows some useful information about the active network interfaces on the system
