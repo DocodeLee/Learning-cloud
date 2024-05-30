@@ -45,3 +45,21 @@ we use the | command to do it
   - sudo, chom didn't work
 ![image](https://github.com/DocodeLee/Learning-cloud/assets/167724096/239b5825-c1d2-44c4-9657-a0d2d8885591)
 I found that the root was the problem
+# 2024 05 30
+### When you use the cat command after you finish the input ctrl + D will be reform the commnad line
+### CAT vs TOUCH
+Touch command is used to create a new empty file without preview and also used to update a time and date stamp of a file which is already exist. And the cat command is used to create a new single or multiple file with preview and also used to dump(view) file data in a terminal.
+## Creating Directory
+### Directory is folder you can save file in directory
+![image](https://github.com/DocodeLee/Learning-cloud/assets/167724096/07fe8b73-d70f-424b-8416-463c2c607679)
+when you copy to file to other place use cp filename root(~/newdirectory)
+## Renaming the name
+In linux there is no command for rename for this you need to use move command. $move original-name new-name
+## Removing
+rm is for file rmdir is for directory
+but you cannot remove the directory which is not empty/ if you delete the all the content. rm -r command will help to delete the directory
+## network intrusion detection system
+![image](https://github.com/DocodeLee/Learning-cloud/assets/167724096/1b0d2912-52a2-4b75-8233-93d200be98c4)
+I downloaded the snort from the kali homepage
+![image](https://github.com/DocodeLee/Learning-cloud/assets/167724096/e64e84ae-ec97-4510-b77f-0330ba37acee)
+Even i downloaded i cannot find snort.conf
