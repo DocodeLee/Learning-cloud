@@ -86,9 +86,25 @@ Second line showed me the IP address.
 #### DHCP : a networking protocol for dynamically assigning IP addresses to each host on your organization's network
 ## dig, which offers a way to gather DNS information about a target domain.
 #### dig hackers-arise.com ns ...... ns is shortname for nameserver
+
 #### dig hackers-arise.com mx ...... mx is shortname for mail exhcange server
 
 ## For changing DNS you can use leafpad
 ### leafpad /etc/resolv.conf
 ### echo "nameserver 8.8.8.8"> /etc/resolv.conf
 This comand change the nameserver and store it
+## Download the software
+### apt-cache search keyword / help you to find the software
+### apt-get install package / download the software you want
+### when you want to remove ] apt-get remove package / will be used
+but it remains the configuration files so if you want to all-clear need to use apt-get purge package
+#### The servers that hold the software for particular distributions of Linux are known as repositories.
+## USING A GUI-BASED INSTALLER
+apt-get install synaptic
+And i can find the files or directory in GUI
+#### you can clone the ]git clone git-url
+#### when you want to change owner chown command is the thing you find
+#### file you don’t have permission to execute and give yourself execute permissions using the chmod command. 
+## Viewing process
+ps command is best choice
+PID : process ID
