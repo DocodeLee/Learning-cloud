@@ -1,0 +1,5 @@
+## Change the shell from zsh to bash
+### Checkin the shell command : echo $SHELL
+### find the bash at which bash
+### chsh -s /bin/bash
+## Darra~ you need to restart the kali or your linux
