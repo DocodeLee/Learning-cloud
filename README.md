@@ -145,6 +145,12 @@ nmap scan : nmap <type of scan><target IP><optionally, target port>
 when i use scanner remotely hiding output would be good option
 ##### -oG MySQLscan :send the output of the scan to a file named MySQLscan in a grep-able format
 ##### cat MySQLscan | grep open > MySQLscan2
-grep the content with open and send it to the new file
+### grep the content with open and send it to the new file
 [https://www.youtube.com/watch?v=4t4kBkMsDbQ](https://www.youtube.com/watch?v=NYgDzO8iQJ0)
-There is some problem on the link so i found nmap tutorial instead
+### There is some problem on the link so i found nmap tutorial instead
+#### After i adjust some part of code they show this 
+![image](https://github.com/DocodeLee/Learning-cloud/assets/167724096/4679dbc1-db5b-45f1-b258-f1cc39d01d31)
+### I tried to run in text-editor but it was failed i tried to change the user as root and save in the root
+#### I even saw the new file MySQL but the content was not there it was blank
+#### 
+
