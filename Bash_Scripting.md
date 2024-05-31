@@ -24,3 +24,6 @@ https://www.youtube.com/watch?v=boqC9QenshY&list=PLT98CRl2KxKGj-VKtApD8-zCqSaN2m
 ![image](https://github.com/DocodeLee/Learning-cloud/assets/167724096/a0276e99-af92-4c12-92ec-e330d7a88b06)
 #### When you want to use command with variable utilize $()
 ##### The point is variable save your time and you can set the value or command with variable
+![image](https://github.com/DocodeLee/Learning-cloud/assets/167724096/204f3627-d87f-42e1-94bc-7e21d0ac9476)
+#### USER is default variable
+#### using lowercase prevent the overrlap
