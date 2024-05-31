@@ -108,3 +108,43 @@ And i can find the files or directory in GUI
 ## Viewing process
 ps command is best choice
 PID : process ID
+### ps aux
+will show all processes running on the system for all users
+### changing priority with nice
+high nice value translates to a low priority, and a low nice value translates to a high priority
+### kill command to kill the process that uses the most resources.
+## env
+##### you can see the environment by env command
+##### find the specific content by set | grep contents
+### You can change the value by  contents = new value 
+## If you set the PATH as value
+## echo $PATH will change the path of yours
+## A crash coure in Bash
+shell is an interface between the user and the operating system
+### enter a shebang
+![image](https://github.com/DocodeLee/Learning-cloud/assets/167724096/13db125c-3fbe-4137-90a5-abe811139ff1)
+### put the command in the text editor(leafpad)
+#### save and read as chmod 755 filename
+
+![image](https://github.com/DocodeLee/Learning-cloud/assets/167724096/fc8262e4-88fd-4b16-bfee-8a75c6908d14)
+## Reading the file
+
+![image](https://github.com/DocodeLee/Learning-cloud/assets/167724096/15131219-dc40-4f70-9861-539a3e867fca)
+# Second file which can interact with input
+![image](https://github.com/DocodeLee/Learning-cloud/assets/167724096/61be1837-9894-46fe-80ed-35e6a3e661de)
+### my first interaction with linux
+### nmap is used to probe a system to see whether it is connected to the network and finds out what ports are open
+nmap scan : nmap <type of scan><target IP><optionally, target port>
+#### nmap helps you scan info about the network 
+![image](https://github.com/DocodeLee/Learning-cloud/assets/167724096/183676c6-652b-4a89-978c-119c0feab299)
+#### simple scanner
+##### start with the shebang and the interpreter to use 
+##### second line is explanation about the code
+#####  nmap command to request a TCP scan / -p 3306 mean on our LAN port 3306
+#### >/dev/null To stay stealthy, we also send the standard nmap output that would usually appear on the screen to a special place in Linux, where it disappears 
+when i use scanner remotely hiding output would be good option
+##### -oG MySQLscan :send the output of the scan to a file named MySQLscan in a grep-able format
+##### cat MySQLscan | grep open > MySQLscan2
+grep the content with open and send it to the new file
+[https://www.youtube.com/watch?v=4t4kBkMsDbQ](https://www.youtube.com/watch?v=NYgDzO8iQJ0)
+There is some problem on the link so i found nmap tutorial instead
