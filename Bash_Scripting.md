@@ -71,3 +71,18 @@ https://www.youtube.com/watch?v=boqC9QenshY&list=PLT98CRl2KxKGj-VKtApD8-zCqSaN2m
 ## Univalsal update in linux
 ![image](https://github.com/DocodeLee/Learning-cloud/assets/167724096/351124be-5551-462a-b9d8-855ac77f95fc)
 ![image](https://github.com/DocodeLee/Learning-cloud/assets/167724096/568536a3-2dbb-40c0-b896-5bafb4624127)
+## for loops
+![image](https://github.com/DocodeLee/Learning-cloud/assets/167724096/52d06b29-573c-4e37-aa48-099cc64ebd17)
+### simple for loops you can use {1..10} instead of 1 2 3 4 5 6 7 8 9 10
+![image](https://github.com/DocodeLee/Learning-cloud/assets/167724096/ec568b00-c50e-4db9-a5f6-647b42bbd601)
+### for loops targeting the files in logfiles directory and has .log extenstion
+#### tar command : 'tar' is a command in Linux used for creating, viewing, and extracting files from archives. 
+![image](https://github.com/DocodeLee/Learning-cloud/assets/167724096/7978b602-99a0-4b3e-9bdc-ba6d6058f83f)
+![image](https://github.com/DocodeLee/Learning-cloud/assets/167724096/5225a8a4-6cb8-4ad2-a1e6-40b7f226fae1)
+### In tutorial they used ) cp /var/log/*.log logfiles/
+#### but there is not log files in my /var
+#### i just use touch command to make file in logfiles/ (directory)
+![image](https://github.com/DocodeLee/Learning-cloud/assets/167724096/ba5a583b-ff28-4dcb-905f-ad255d9cf7fc)
+#### to test i also made .txt file for checking ability of for loop
+![image](https://github.com/DocodeLee/Learning-cloud/assets/167724096/b24c38af-817b-4a0c-821d-7ee840063db6)
+### my for loops made .tar.gz which has .log file (.txt file is just there)
