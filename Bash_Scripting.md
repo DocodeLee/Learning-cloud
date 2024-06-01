@@ -47,9 +47,27 @@ https://www.youtube.com/watch?v=boqC9QenshY&list=PLT98CRl2KxKGj-VKtApD8-zCqSaN2m
 ### with touch and rm you can cotrol the file system 
 ![image](https://github.com/DocodeLee/Learning-cloud/assets/167724096/8f7b1c68-15b6-4a68-b3b4-9c79235acd66
 ### In here, commanmd variable calll the htop. and if there is package it runs the package. but if there isn't we are going to install using sudoo command
+
 ### apt update : checking the package available
 ### apt upgrade : this is the actual update
 ![image](https://github.com/DocodeLee/Learning-cloud/assets/167724096/28728b8f-4cb2-4819-8102-94701fe7823d)
 ### It is almost same. but oon if line command -v $command use noramlly to find a pacakge. command is not relevant with variable nmae that is literally commamnd lol
 ![image](https://github.com/DocodeLee/Learning-cloud/assets/167724096/36036fbf-832e-49b8-8883-6869680de5b9)
-
+## Exit codes
+### when the command works / echo $? shows 0 , but when command doesn't work echo $? shows 2
+![image](https://github.com/DocodeLee/Learning-cloud/assets/167724096/b640ba44-c39f-4485-9cac-b398850f746f)
+### redesigned the code for checking exit code
+![image](https://github.com/DocodeLee/Learning-cloud/assets/167724096/f765d600-38b8-432f-adf3-3c79a6219287)
+### script using exit codes
+![image](https://github.com/DocodeLee/Learning-cloud/assets/167724096/f6714b76-f354-4cb5-8202-572513bfc058)
+### control the file where the result saves so when you check the list after run this code. you can see the package_install_results.log or failure.log on the list
+![image](https://github.com/DocodeLee/Learning-cloud/assets/167724096/2bba403c-37be-4613-a1f3-7f311e3f9a28)
+### The line of exit determine the code so echo $? there is no need to run
+![image](https://github.com/DocodeLee/Learning-cloud/assets/167724096/9984b656-33d9-4df7-8d2a-cf0d9f33820e)
+## while loop in linux
+![image](https://github.com/DocodeLee/Learning-cloud/assets/167724096/d2e2ef23-c8eb-4a33-9ff7-b0df214896c2)
+## second example for linux
+![image](https://github.com/DocodeLee/Learning-cloud/assets/167724096/203839f4-95d3-49c0-b3af-6400ead78f65)
+## Univalsal update in linux
+![image](https://github.com/DocodeLee/Learning-cloud/assets/167724096/351124be-5551-462a-b9d8-855ac77f95fc)
+![image](https://github.com/DocodeLee/Learning-cloud/assets/167724096/568536a3-2dbb-40c0-b896-5bafb4624127)
