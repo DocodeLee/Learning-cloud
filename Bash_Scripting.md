@@ -86,3 +86,33 @@ https://www.youtube.com/watch?v=boqC9QenshY&list=PLT98CRl2KxKGj-VKtApD8-zCqSaN2m
 #### to test i also made .txt file for checking ability of for loop
 ![image](https://github.com/DocodeLee/Learning-cloud/assets/167724096/b24c38af-817b-4a0c-821d-7ee840063db6)
 ### my for loops made .tar.gz which has .log file (.txt file is just there)
+# 2024.06.02
+![image](https://github.com/DocodeLee/Learning-cloud/assets/167724096/b336c8aa-9708-4e45-8a60-17227097f545)
+#### There is one script to run. but sometime running at /home woould not the best choice. so if you can move to the local directory, it could be better
+### i used move command and changed the permission to root 
+![image](https://github.com/DocodeLee/Learning-cloud/assets/167724096/b7fb2cfe-2a25-4d5a-b66b-60d476350c0b)
+#### This code help you set the PATH variable
+## When your script is under the default path you don't need to set the path additionally but if you want to store your own directory which is not saved in PATH variable. you need to set the PATh
+### That image is for set the path. but when you store the scripts in the /usr/bin/local you don't need to set it 
+## Data stream in linux
+![image](https://github.com/DocodeLee/Learning-cloud/assets/167724096/b0042748-f5c7-4045-9ec8-e0d41da7be87)
+### This is when i use find command and somewhere they show the permission issue
+### But when i type $ find /etc -type f 2> /dev/null
+### There is no error about permission but when i type $ echo $? it shows 1 > it means that the code was not perfectly done
+## In here i just hide by redirectioning the files to the /dev/null if i erase the 2 i only see the error message like this
+![image](https://github.com/DocodeLee/Learning-cloud/assets/167724096/8fa77a4f-31d7-44e6-940d-70b2bb8c111f)
+### actually when you redirection file 1 is default so even you type 1 it will be same result.
+### And youcan move the output with 1
+### >>  0 for input 1 for output 2 for error 
+![image](https://github.com/DocodeLee/Learning-cloud/assets/167724096/3e721003-bbeb-4c68-8d66-7d1412afb121)
+### This command mean send the standard output to result.txt and error to error.txt
+## > and >> difference
+### both are parse the data but > is overwritten if the file exist, >> is contain the previous and new data.
+![image](https://github.com/DocodeLee/Learning-cloud/assets/167724096/3a960373-1cba-4dd1-b32c-2b70fac885fa)
+### simple class in linux
+#### semicolone is essential
+## if you want to do add while loop put the while [ condition ] /n do and the end add the done line
+![image](https://github.com/DocodeLee/Learning-cloud/assets/167724096/9f648983-e071-47b1-9b1d-d4130c22ae89)
+#### when you want to run while loop the end code should be later
+![image](https://github.com/DocodeLee/Learning-cloud/assets/167724096/5c2e4ca9-359e-4422-bf94-37b46ae92e11)
+#### in here i set the variable to run the while loop, until you change this you can run the while loop
