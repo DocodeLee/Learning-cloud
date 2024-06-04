@@ -116,3 +116,84 @@ https://www.youtube.com/watch?v=boqC9QenshY&list=PLT98CRl2KxKGj-VKtApD8-zCqSaN2m
 #### when you want to run while loop the end code should be later
 ![image](https://github.com/DocodeLee/Learning-cloud/assets/167724096/5c2e4ca9-359e-4422-bf94-37b46ae92e11)
 #### in here i set the variable to run the while loop, until you change this you can run the while loop
+## scheduling job
+![image](https://github.com/DocodeLee/Learning-cloud/assets/167724096/727fefc4-ba94-454b-a755-02a49db90233)
+### for the scheduling i install the at command
+### at command allows you to schedule tasks to run at a specific time.
+![image](https://github.com/DocodeLee/Learning-cloud/assets/167724096/8f65098e-7b8d-4548-833c-bcfd985afc90)
+#### This is code for scheduling
+![image](https://github.com/DocodeLee/Learning-cloud/assets/167724096/ed31e7b1-b2b7-417f-9c2d-b8d240cf0e59)
+### This is the job_results.log
+## we Transfer the string tot the logfile which is job_results.log
+![image](https://github.com/DocodeLee/Learning-cloud/assets/167724096/1aad649f-b2dc-4caf-be92-e75d3776a073)
+### set the run time using at command
+### after that the file has been made when the time had come
+![image](https://github.com/DocodeLee/Learning-cloud/assets/167724096/99262988-d767-403f-b214-96df584705ef)
+### atq is command for look queue
+![image](https://github.com/DocodeLee/Learning-cloud/assets/167724096/bd9bae4c-66f1-49e2-9130-186d784a5aaa)
+## using atrm u can delete the queue
+![image](https://github.com/DocodeLee/Learning-cloud/assets/167724096/a4cd879d-c2fb-410f-ae45-bd276ae14236)
+### you can correct the command like this with the path
+![image](https://github.com/DocodeLee/Learning-cloud/assets/167724096/c44abf2e-4df6-487b-867e-60f9bd6654c9)
+### it shows the path
+### for the security and path variable typing the full path would be better
+![image](https://github.com/DocodeLee/Learning-cloud/assets/167724096/c8b6429c-4543-4a77-a024-870b3f3a1372)
+### let's do crontab -e is edit
+![image](https://github.com/DocodeLee/Learning-cloud/assets/167724096/7fbf827e-9ad4-4fd4-a37d-d0bdd49351bf)
+### crontab nano image
+![image](https://github.com/DocodeLee/Learning-cloud/assets/167724096/2935b056-e294-4919-85f4-56a002ce4d24)
+## it follows m h dom mon dow command
+### m = min > 30min / h = hour > 1 hour
+### dom mon = day of the month and the month
+### dow = day of the week Mondy = 1 ~ sunday = 0,7
+#### just save that 
+### and if you run crontab -e you just show the texteditor.
+## argument
+### $1 , $2 , $3 all these are the argument
+![image](https://github.com/DocodeLee/Learning-cloud/assets/167724096/f1059458-6e55-4876-ac77-77f3225df61d)
+![image](https://github.com/DocodeLee/Learning-cloud/assets/167724096/3f45afab-6c98-420d-a19d-2b98e4e401b4)
+### argument get the value as order
+![image](https://github.com/DocodeLee/Learning-cloud/assets/167724096/3cd7b3d8-3a41-4c64-8843-6d5ae4d80058)
+### argument is kind of shortcut for command
+## lines=$(ls -lh $1 | wc -l)
+#### when you use ls -l, you get a long listing format without the sizes being human-readable. When you use ls -lh, you get a long listing format with human-readable sizes.
+#### wc is wordcount command 
+#### -l: Counts the number of lines.
+#### -w: Counts the number of words.
+#### -c: Counts the number of bytes.
+#### -m: Counts the number of characters. 
+![image](https://github.com/DocodeLee/Learning-cloud/assets/167724096/1414327d-dc64-4c60-8f8e-8dff658a4afc)
+### editing if statement you can provide certainity
+![image](https://github.com/DocodeLee/Learning-cloud/assets/167724096/cd8756ac-ddfe-4f7a-8e1c-7df7d310bdb8)
+### plus power to your code
+## backup script
+![image](https://github.com/DocodeLee/Learning-cloud/assets/167724096/810878cb-5fd9-4172-bb26-9920a0ee0fdb)
+### from the top there is shebang
+### explanation for others
+### check whether arguments are two things or not
+### echo to guide
+### exit and finish
+
+## Rsync is a file transfer utility designed to move data from one Linux network host to another,
+### from this line check for rysync
+![image](https://github.com/DocodeLee/Learning-cloud/assets/167724096/935b0408-f0c6-49ab-9564-9a02b633b460)
+### call the date data with YYYY-MM-DD
+## -avb
+### a: copy the all the file "archive"
+### v: show what computer is doing "verbose"
+### b: make backup files that are going to be changed or deltet
+### -backup-dir $2/current_date: This specifies the directory where rsync will store backup copies of files  [In here $2 is target directory]
+### --delete: This option tells rsync to delete files in the destination directory that don't exist in the source directory. This helps to ensure that the destination is an exact mirror of the source.
+### --dry-run : test without any change safety 
+![image](https://github.com/DocodeLee/Learning-cloud/assets/167724096/5de2a9a7-afeb-4456-954d-f75431c16db4)
+### when i run the code there is error like this
+### lol i type rsync as rysync so i coreect the typo erro and rerun
+![image](https://github.com/DocodeLee/Learning-cloud/assets/167724096/9074e144-6597-446f-8673-6d8de0c42d5f)
+## and i show the log
+![image](https://github.com/DocodeLee/Learning-cloud/assets/167724096/a66fa870-aee1-4431-899b-3e2b0360f895)
+## after the files it shows this message
+### then just run without dry run since you confirm the running
+![image](https://github.com/DocodeLee/Learning-cloud/assets/167724096/8db1ce3a-7e50-451d-8091-591069ddbb31)
+## if i run without dry run they actually do the command and this is the result
+![image](https://github.com/DocodeLee/Learning-cloud/assets/167724096/36c23d4b-c9ce-4d27-83ec-b256c9c0fff6)
+## in the log file there is the process
